@@ -1,0 +1,213 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 28px;
+}
+
+.heading{
+  color: #4AAAA5;  
+}
+
+p,
+ul,
+ol,
+blockquote {
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.containerTop{
+  border-bottom: 3px solid grey;
+  border-color: #DCDCDC;
+}
+
+.container{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+.name{
+    float: left;
+}
+
+nav,
+.name {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.name a,
+nav a {
+    display: inline-block;
+}
+
+.name a{
+  background-color: #4AAAA5;
+  color: white;
+  padding: 40px 60px;
+}
+
+nav{
+  display: table;
+  float: right;
+  height: 115px;
+}
+
+nav a {
+  padding: 0 20px;
+  border-right: 1px solid grey;
+}
+
+nav ul li:last-child a {
+  padding-right: 0;
+  border: 0;
+}
+
+nav ul {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+nav ul li {
+  display: inline-block;
+  float: left;
+}
+
+.containerMain {
+  background-color: lightgrey;
+  padding: 40px 0;
+}
+
+.widebar,
+.sidebar {
+  background-color: #fff;
+  padding:  40px 30px;
+  border: 2px solid grey;
+  border-color: #DCDCDC;
+}
+
+.sidebar {
+  margin-top: 40px;
+}
+
+
+  .widebar {
+    width: calc(65% - 20px);
+  }
+
+  .sidebar {
+    width: calc(35% - 20px);
+    margin-left: 40px;
+    margin-top: 0;
+  }
+}
+
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+}
+
+.list-unstyled li {
+  display: inline-block;
+}
+
+.social{
+  text-align: center;
+}
+
+.connect{
+  float: right;
+}
+
+footer{
+  padding: 20px;
+    clear: both;
+    color: #FFF;
+    background: #ccc;
+    background-color: #A9A9A9;
+}
+
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.align-left {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.align-right {
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+footer{
+  text-align: center;
+}
+
+.bottomRule{
+  background-color: #4AAAA5;
+}
+
+.gline{
+  border: 2px solid #D3D3D3;
+}
+
+form{
+  color: #A9A9A9;
+}
+
+.button{
+  background-color: #4AAAA5;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.frmElements{
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .widebar,
+  .sidebar {
+    float: left;
+  }
