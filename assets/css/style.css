@@ -8,6 +8,7 @@ html {
   font-size: 18px;
 }
 
+/*setting font for headings*/
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -25,10 +26,12 @@ h2, .h2 {
   font-size: 28px;
 }
 
+/*font color for the heading text*/
 .heading{
   color: #4AAAA5;  
 }
 
+/*settings for the nav*/
 p,
 ul,
 ol,
@@ -42,11 +45,13 @@ a {
   text-decoration: none;
 }
 
+/*header container*/
 .containerTop{
   border-bottom: 3px solid grey;
   border-color: #DCDCDC;
 }
 
+/*box with content called with clearfix for placement*/
 .container{
   max-width: 1200px;
   margin-left: auto;
@@ -54,6 +59,7 @@ a {
   padding: 0 15px;
 }
 
+/*styles for placing name and nav in header and adding colors*/
 .name{
     float: left;
 }
@@ -101,11 +107,14 @@ nav ul li {
   float: left;
 }
 
+/*box containing the main content text and social media icons*/
 .containerMain {
   background-color: lightgrey;
   padding: 40px 0;
 }
 
+/*Styles for the 2 boxes inside containerMain 
+that contain main content text and social medial icons*/
 .widebar,
 .sidebar {
   background-color: #fff;
@@ -128,8 +137,16 @@ nav ul li {
     margin-left: 40px;
     margin-top: 0;
   }
+
+.social{
+  text-align: center;
 }
 
+.connect{
+  float: right;
+}
+
+/*this is for the nav and the icon to display horizontal instead of vertical*/
 .list-unstyled {
   list-style: none;
   padding: 0;
@@ -139,13 +156,7 @@ nav ul li {
   display: inline-block;
 }
 
-.social{
-  text-align: center;
-}
 
-.connect{
-  float: right;
-}
 
 footer{
   padding: 20px;
@@ -206,7 +217,8 @@ form{
   width: 100%;
 }
 
-@media (min-width: 768px) {
+/*responsive for different screen sizes*/
+@media (min-width: 980px), (min-width: 768px), (min-width: 640px) {
   .widebar,
   .sidebar {
     float: left;
